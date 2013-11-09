@@ -1,0 +1,152 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("irccloud.com") {
+    #limits, #sidebarIndicatorAbove,  #sidebarIndicatorBelow, #footer { display: none !important; }
+    button span { background: #002b36 !important; border: none !important; color: #ccc !important; box-shadow: none !important; }
+    .buffer.active { border-left: none !important }
+    .memberList .category * { background: transparent !important; border: none !important; }
+    div.log .monospace span.message, div.log div.notice span.message, div.log div.warning span.message,
+    div.log div.error span.message, div.log div.groupedLines, td.nickcell a.nick, td.inputcell textarea,
+    div.log div.messageRow, div.log div.me a.user, span.mode_symbol, span.mode_pill {
+        font-family:  Consolas, "Source Code Pro", "Droid Sans Mono", monospace !important;
+    }
+    #sidebar #limits, div.memberwrapper,.bufferHead {
+        background-color: #073642 !important;
+        border: none !important;
+    }
+    .extras .extrasBar {
+        background-color: #2aa198 !important;
+    }
+    #buffers .badge, .extras .extrasBadge {
+        background-color: #dc322f !important;
+        border: none !important;
+        border-radius: 1em !important;
+        padding: 0 .45em !important;
+    }
+    .extras .extrasDismiss {
+        background-color: #cb4b16 !important;
+    }
+    #addNetwork a, #buffers a.buffer {
+        font-weight: 700;
+        background-color: #073642 !important;
+        border: none !important;
+    }
+    .buffers .active.selected a.buffer {
+        color: #002b36 !important;
+        background-color: #6c71c4 !important;
+    }
+    .buffers .unread * {
+        border-color: #6c71c4 !important;
+        color: #ccc !important;
+    }
+    table.buffer {
+        border: none !important;
+        border-radius: 0 !important;
+    }
+    div.log div.warning {
+        background-color: rgba(181,137,0,0.25) !important;
+    }
+    div.log div.groupedJoinPart {
+        border-color: #073642 !important;
+    }
+    div.log div.groupedJoinPart:hover, div.log div.groupedJoinPart.expanded {
+        background-color: #073642 !important;
+        border-color: #073642 !important;
+    }
+    div.log div.fetch span,div.log div.lastSeen span.text, div.log div.bottomSeen span,
+    div.log div.focusSeen span {
+        color: #586e75 !important;
+        background-color: #002b36 !important;
+    }
+    div.log div.row.highlight a.author, div.log div.row.highlight td.nickcell a.nick {
+        color: #d33682 !important;
+    }
+    .row.type_buffer_msg .author:before {
+        content: "<" !important;
+        color: #f51 !important;
+    }
+    .row.type_buffer_msg .author:after {
+        content: ">" !important;
+        color: #f51 !important;
+    }
+    a, #footer a, #headercell a,div.log a {
+        color: #268bd2 !important;
+    }
+    a:hover, #footer a:hover, #headercell a:hover,div.log a:hover {
+        text-decoration: none !important;
+    }
+    div.nickinputwrapper, td.inputcell, td.inputcell textarea, .input * {
+        color: #93a1a1 !important;
+        background-color: #073642 !important;
+    }
+    td.nickcell, div.log div.self, div.buffermain {
+        background: none !important;
+        border: none !important;
+    }
+    div.log div.dateChange p, div.dateWrapper table {
+        color: #93a1a1 !important;
+        box-shadow: 0 0 2px rgba(0,0,0,0.5) !important;
+        background-color: #073642 !important;
+        background-image: none !important;
+        border: none !important;
+        width: 95% !important;
+        margin: .5em auto !important;
+    }
+    .inputInfo {
+        background-color: #073642 !important;
+        background-image: none !important;
+        box-shadow: none !important;
+        border-color: #268bd2 !important;
+        padding: .25em !important;
+    }
+    .inputInfo span.item {
+        font-weight: 700 !important;
+        border: 1px solid transparent !important;
+        margin-right: .25em !important;
+    }
+    .inputInfo span.highlight, .inputInfo span.item:hover {
+        background-color: #eee8d5 !important;
+        border-radius: .15em !important;
+    }
+    .inputInfo span.highlight a {
+        color: #073642 !important;
+    }
+    div.log div.row span.mode_OWNER, .inputInfo span.mode_OWNER, .nickcell span.mode_OWNER, #memberContextMenu span.mode_OWNER {
+        color: #b58900 !important;
+    }
+    div.log div.row span.mode_ADMIN, .inputInfo span.mode_ADMIN, .nickcell span.mode_ADMIN, #memberContextMenu span.mode_ADMIN {
+        color: #6c71c4 !important;
+    }
+    div.log div.row span.mode_OP, .inputInfo span.mode_OP, .nickcell span.mode_OP, #memberContextMenu span.mode_OP {
+        color: #dc322f !important;
+    }
+    div.log div.row span.mode_HALFOP, .inputInfo span.mode_HALFOP, .nickcell span.mode_HALFOP, #memberContextMenu span.mode_HALFOP {
+        color: #cb4b16 !important;
+    }
+    div.log div.row span.mode_VOICED, .inputInfo span.mode_VOICED, .nickcell span.mode_VOICED, #memberContextMenu span.mode_VOICED {
+        color: #859900 !important;
+    }
+    body, .mainContainer, #buffers li.connection, div.log div.joinPartGroup.expanded div.messageRow {
+        background-color: #002b36 !important;
+    }
+    #statusActions b, #statusActions strong, td.statuscell div.status .bufferHeading span.label,
+    div.log div.row span a.author, td.nickcell a.nick {
+        color: #fa5 !important;
+        font-weight: normal !important;
+    }
+    #buffers a.buffer:hover, #buffers p.join a:hover, #buffers p.archiveToggle a:hover,
+    div.log div.groupedLines, div.log div.highlight, div.log div.status, div.log div.notice {
+        background-color: #073642 !important;
+    }
+    div.log div.chat, div.log div.status, div.log div.notice, div.log div.groupedLines, div.log div.warning,
+    div.log div.error, div.log div.table, div.log div.me, .inputInfo span.hint, .inputInfo span.original {
+        color: #7eadc1 !important;
+    }
+    div.log div.self.row a.author, div.log span.date,td.timecell, #footer {
+        color: #578 !important;
+    }
+    div.log div.lastSeen hr,div.log div.bottomSeen hr, div.log div.focusSeen hr, div.log div.backlogDivider hr,
+    div.log div.fetch hr, div.nickinputwrapper {
+        border-color: #586e75 !important;
+    }
+    #buffers .active.selected a.buffer { background-color: #93a1a1 !important}
+}
