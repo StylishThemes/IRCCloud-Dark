@@ -1,5 +1,6 @@
-#irccloudy
+#IRCCloud-Dark [![tags](https://img.shields.io/github/tag/StylishThemes/IRCCloud-Dark.svg?style=flat)](https://github.com/StylishThemes/IRCCloud-Dark/tags)
 
-[irccloud.com](https://irccloud.com/) userstyle based on [irccloud-solarized](https://github.com/jonathanj/irccloud-solarized). 
+## Preview
+![Preview](http://i.imgur.com/gcfakZx.png)
 
-*Currently unmaintained*
+© 2015 [silverwind](https://github.com/silverwind), distributed under BSD licence
