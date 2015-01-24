@@ -3,6 +3,6 @@
 [Manual installation](https://raw.githubusercontent.com/StylishThemes/IRCCloud-Dark/master/irccloud-dark.css).
 
 ## Preview
-![Preview](http://i.imgur.com/gcfakZx.png)
+![Preview](http://i.imgur.com/peWYYCK.png)
 
 © 2015 [silverwind](https://github.com/silverwind), distributed under BSD licence
