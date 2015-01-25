@@ -39,7 +39,7 @@
   .gistwrap html {
     overflow: hidden !important;
   }
-  button.action a, button.action span {
+  button.action a, button.action span, .inputInfo, button a, button span {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
@@ -84,7 +84,7 @@
   .extras span.extrasBar:hover {
     background: #18d !important;
   }
-  input, textarea, body, ul.memberList a, #statusActions b, #statusActions strong,
+  input, textarea, body, ul.memberList a, #statusActions b, #statusActions strong, .inputInfo span.item a,
   #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a, #buffers p.openArchiveToggle a:hover, .bufferContextMenu,
   a.author:not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13),
   a.nick:not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13) {
@@ -93,7 +93,7 @@
   div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, div.paste.nocode pre.body span {
     color: #aaa !important;
   }
-  #statusActions {
+  #statusActions, .inputInfo span.hint {
     color: #555 !important;
   }
   #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
@@ -113,7 +113,7 @@
   }
   .bufferHead, div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
  #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
- #memberContextMenu div.userContext, .contextMenu, div.paste h1 {
+ #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo {
     background: #222 !important;
   }
   button:hover span, button:hover a, #buffers h2 a.buffer, #buffers a.buffer:hover, #buffers p.openArchiveToggle a:hover,
