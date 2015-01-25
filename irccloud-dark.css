@@ -86,8 +86,8 @@
   }
   input, textarea, body, ul.memberList a, #statusActions b, #statusActions strong, .inputInfo span.item a,
   #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a, #buffers p.openArchiveToggle a:hover, .bufferContextMenu,
-  a.author:not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13),
-  a.nick:not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13) {
+  a.author:not(.c0):not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13),
+  a.nick:not(.c0):not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13) {
     color: #ddd !important;
   }
   div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, div.paste.nocode pre.body span {
