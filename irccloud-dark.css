@@ -39,7 +39,7 @@
   .gistwrap html {
     overflow: hidden !important;
   }
-  button.action a, button.action span, .inputInfo, button a, button span {
+  button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
