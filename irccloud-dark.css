@@ -105,7 +105,7 @@
   div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, div.paste.nocode pre.body span {
     color: #aaa !important;
   }
-  #statusActions, .inputInfo span.hint {
+  #statusActions, .inputInfo span.hint, div.log span.me_prefix {
     color: #555 !important;
   }
   #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
