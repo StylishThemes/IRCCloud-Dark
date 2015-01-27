@@ -60,6 +60,9 @@
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a {
     color: #ccc !important;
   }
+  #buffers h2.active.unread, #buffers ul.buffers .active.unread a.buffer {
+    border-left-color: #16a !important;
+  }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
   a.gist, a.link, a.reconnect, span.reconnect, #buffers a.buffer, #buffers p.archiveToggle a, #buffers p.join a {
     color: #16a !important;
@@ -124,7 +127,7 @@
   .bufferContextMenu ul.actions li a.joinpart:hover, .bufferContextMenu ul.actions li a.joinpartcollapse:hover,
   .bufferContextMenu ul.actions li a.notifyAll:hover, .bufferContextMenu ul.actions li a.pastes:hover,
   .bufferContextMenu ul.actions li a.tweets:hover, .bufferContextMenu ul.actions li a.unread:hover {
-     background: #333 !important;
+     background: #282828 !important;
    }
   input, textarea, td.nickcell, td.inputcell, div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
     background: #111 !important;
