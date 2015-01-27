@@ -64,14 +64,14 @@
   div.log div.table, div.log div.warning, div.buffermain, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #channelContextMenu.active.mod ul.actions li a.topic, #memberContextMenu ul.actions li a,
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
-  .gist {
+  .gist, .gist .highlight {
     color: #ccc !important;
   }
   #buffers h2.active.unread, #buffers ul.buffers .active.unread a.buffer {
     border-left-color: #16a !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
-  a.gist, a.link, a.reconnect, span.reconnect, #buffers a.buffer, #buffers p.archiveToggle a, #buffers p.join a {
+  a.gist, a.link, a.reconnect, span.reconnect, #buffers a.buffer, #buffers p.archiveToggle a, #buffers p.join a, .gist a {
     color: #16a !important;
   }
   a, div.log div.chat a, div.log div.error a, div.log div.groupedLines a, div.log div.me a, div.log div.notice a, div.log div.status a,
@@ -112,14 +112,16 @@
   .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre {
     background: #181818 !important;
   }
-
+  .gist .markdown-body .highlight pre, .gist .markdown-body pre {
+    background: #222 !important;
+    border: 1px solid #333 !important;
+  }
   div.log div.row.highlight {
     background: #321 !important;
   }
   div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a {
     background: #123 !important;
   }
-
   div.buffermain, .gist .line-numbers {
     background: #141414 !important;
   }
