@@ -61,7 +61,7 @@
     color: #ccc !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
-  a.gist, a.link {
+  a.gist, a.link, a.reconnect, span.reconnect, #buffers a.buffer, #buffers p.archiveToggle a, #buffers p.join a {
     color: #16a !important;
   }
   a, div.log div.chat a, div.log div.error a, div.log div.groupedLines a, div.log div.me a, div.log div.notice a, div.log div.status a,
@@ -77,7 +77,8 @@
   .bufferContextMenu.active ul.actions li a:hover {
     background: #ccc !important;
   }
-  #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar {
+  #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
+  #buffers .selected a.buffer, #buffers .selected a.buffer:hover {
     background: #16a !important;
     color: #fff !important;
   }
@@ -104,7 +105,7 @@
   div.log div.row.highlight {
     background: #321 !important;
   }
-  div.log div.self {
+  div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a {
     background: #123 !important;
   }
 
