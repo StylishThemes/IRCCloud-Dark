@@ -51,13 +51,20 @@
   div.log div.hover span.date {
     color: #fff !important;
   }
-  div#timeContainer, div.log span.date {
+  div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle {
     color: #666 !important;
+  }
+  .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
+    color: #999 !important;
+  }
+  .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
+    font-weight: normal !important;
   }
   div.log div.chat, div.log div.error, div.log div.groupedLines, div.log div.me, div.log div.notice, div.log div.status,
   div.log div.table, div.log div.warning, div.buffermain, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #channelContextMenu.active.mod ul.actions li a.topic, #memberContextMenu ul.actions li a,
-  td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a {
+  td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
+  .gist {
     color: #ccc !important;
   }
   #buffers h2.active.unread, #buffers ul.buffers .active.unread a.buffer {
@@ -101,7 +108,8 @@
     color: #555 !important;
   }
   #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
-  .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li {
+  .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
+  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre {
     background: #181818 !important;
   }
 
