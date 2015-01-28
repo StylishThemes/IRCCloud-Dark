@@ -51,7 +51,7 @@
   div.log div.hover span.date {
     color: #fff !important;
   }
-  div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle {
+  div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author {
     color: #666 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
