@@ -160,6 +160,20 @@
   div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
     background: transparent !important;
   }
+
+  /* webkit scrollbars */
+  ::-webkit-scrollbar-track {
+    background: #181818 !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #333 !important;
+    border-color: #181818 !important;
+  }
+  ::-webkit-scrollbar-track-piece {
+    background: #181818 !important;
+    border-color: #181818 !important;
+  }
+
   /* nick colors */
   .nick-colors div.log div.row span a.c0, .nick-colors div.log div.row span a.c0:hover,
   .nick-colors div.log div.row span a.hover.c0, .nick-colors div.log div.row span a.hover.c0:hover,
