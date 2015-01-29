@@ -114,7 +114,7 @@
   }
   #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
   .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
-  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre {
+  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer {
     background: #181818 !important;
   }
   .gist .markdown-body .highlight pre, .gist .markdown-body pre {
@@ -124,7 +124,8 @@
   div.log div.row.highlight {
     background: #321 !important;
   }
-  div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a {
+  div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a,
+  #pasteSidebar {
     background: #123 !important;
   }
   div.buffermain, .gist .line-numbers {
