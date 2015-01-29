@@ -4,7 +4,7 @@
 - Install from [userstyles.org](https://userstyles.org/styles/109724) (with customization options).
 - Or [manually](https://raw.githubusercontent.com/StylishThemes/IRCCloud-Dark/master/irccloud-dark.css):
   - In Firefox, paste into a new style.
-  - In Chrome, paste into a new style and set it to apply on domain `irccloud.com`.
+  - In Chrome, paste into a new style, remove the first and last line of the CSS and set it to apply on domain `irccloud.com`.
 
 ## Preview
 ![Preview](http://i.imgur.com/peWYYCK.png)
