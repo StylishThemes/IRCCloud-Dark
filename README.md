@@ -1,6 +1,10 @@
-#IRCCloud-Dark [![tags](https://img.shields.io/github/tag/StylishThemes/IRCCloud-Dark.svg?style=flat)](https://github.com/StylishThemes/IRCCloud-Dark/tags)
+# IRCCloud-Dark [![tags](https://img.shields.io/github/tag/StylishThemes/IRCCloud-Dark.svg?style=flat)](https://github.com/StylishThemes/IRCCloud-Dark/tags)
 
-Install the [stylesheet](https://raw.githubusercontent.com/StylishThemes/IRCCloud-Dark/master/irccloud-dark.css) with Stylish. In Firefox, copy-paste into a new style. In Chrome, create a new style, remove the `-moz-document` rule and its brackets, and set the style to apply on `irccloud.com`.
+- Stylish is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
+- Install from [userstyles.org](https://userstyles.org/styles/109724) (with customization options).
+- Or [manually](https://raw.githubusercontent.com/StylishThemes/IRCCloud-Dark/master/irccloud-dark.css):
+  - In Firefox, copy-paste into a new style.
+  - In Chrome, create a new style, remove the `-moz-document` rule and its brackets, and set the style to apply on `irccloud.com`.
 
 ## Preview
 ![Preview](http://i.imgur.com/peWYYCK.png)
