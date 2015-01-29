@@ -54,7 +54,8 @@
   div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author {
     color: #666 !important;
   }
-  .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a, div#buffersFooter p a {
+  .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a, div#buffersFooter p a, div.log div.groupedJoinPart span.mode,
+  div.log span.prefix {
     color: #999 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
@@ -124,6 +125,12 @@
     background: #222 !important;
     border: 1px solid #333 !important;
   }
+  div.groupedJoinPart {
+    border-color: transparent !important;
+  }
+  div.groupedJoinPart:hover {
+    border-color: #333 !important;
+  }
   div#buffersFooter p a {
     background-color: #222 !important;
   }
@@ -141,8 +148,9 @@
     background: #141414 !important;
   }
   .bufferHead, div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
- #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
- #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo {
+  #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
+  #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
+  div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow {
     background: #222 !important;
   }
   button:hover span, button:hover a, #buffers h2 a.buffer, #buffers a.buffer:hover, #buffers p.openArchiveToggle a:hover,
