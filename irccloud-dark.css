@@ -54,7 +54,7 @@
   div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author {
     color: #666 !important;
   }
-  .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
+  .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a, div#buffersFooter p a {
     color: #999 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
@@ -114,19 +114,28 @@
   }
   #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
   .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
-  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer {
+  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm {
     background: #181818 !important;
+  }
+  h2.addNetworkIdentityHeading span, h2.addNetworkAdvancedHeading a, .ui-autocomplete {
+    background-color: #181818 !important;
   }
   .gist .markdown-body .highlight pre, .gist .markdown-body pre {
     background: #222 !important;
     border: 1px solid #333 !important;
   }
+  div#buffersFooter p a {
+    background-color: #222 !important;
+  }
   div.log div.row.highlight {
     background: #321 !important;
   }
   div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a,
-  #pasteSidebar {
+  #pasteSidebar, .ui-autocomplete .ui-state-focus, .ui-autocomplete .ui-state-focus span.host {
     background: #123 !important;
+  }
+  div#buffersFooter p a:hover {
+    background-color: #123 !important;
   }
   div.buffermain, .gist .line-numbers {
     background: #141414 !important;
