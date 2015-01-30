@@ -36,6 +36,14 @@
     background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iNjQiIGZpbGw9IiNkZGRkZGQiLz48L2c+PC9zdmc+) !important;
     background-size: cover !important;
   }
+  /* collapsible blocks +/- icons */
+  div.log div.groupedDisco span.discoWidget, div.log div.groupedJoinPart span.joinPartWidget {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHJlY3Qgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6Izk5OTtzdHJva2Utd2lkdGg6MTsiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHg9IjQuNSIgeT0iMy41Ii8+PHBhdGggc3R5bGU9ImZpbGw6Izk5OTsiIGQ9Im0gOCA1IDEgLTAgMCAyIDIgMCAwIDEgLTIgMCAwIDIgLTEgLTAgTCA4IDggNiA4IDYgNyA4IDcgeiIgLz48L3N2Zz4=) !important;
+  }
+  div.log div.groupedDisco.expanded span.discoWidget, div.log div.groupedJoinPart.expanded span.joinPartWidget {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHJlY3Qgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6Izk5OTtzdHJva2Utd2lkdGg6MTsiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHg9IjQuNSIgeT0iMy41Ii8+PHBhdGggc3R5bGU9ImZpbGw6Izk5OSIgZD0ibSAxMSA3IDAgMSBjIC0wIC0wIC01IDAgLTUgMCBMIDYgNyB6Ii8+PC9zdmc+) !important;
+  }
+  /* invert image */
   canvas.clock, #channelContextMenu ul.actions li.notifyAll a, #channelContextMenu ul.actions li.showMembers a,
   .bufferContextMenu ul.actions li a {
     filter: url("data:image/svg+xml;utf8, <svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'i\'><feColorMatrix color-interpolation-filters=\'srgb\' values=\'-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0\'/></filter></svg>#i");
