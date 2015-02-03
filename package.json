@@ -1,0 +1,15 @@
+{
+  "name": "IRCCloud-Dark",
+  "version": "0.1.0",
+  "description": "Dark IRCCloud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StylishThemes/IRCCloud-Dark.git"
+  },
+  "author": "silverwind <silv3rwind@gmail.com> (https://github.com/silverwind)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/StylishThemes/IRCCloud-Dark/issues"
+  },
+  "homepage": "https://github.com/StylishThemes/IRCCloud-Dark"
+}
