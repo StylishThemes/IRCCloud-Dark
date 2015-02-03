@@ -116,8 +116,11 @@
     background: #136 !important;
     color: #fff !important;
   }
-  .extras span.extrasBar:hover {
-    background: #247 !important;
+  .extras span.extrasBar:hover, .extras span.extrasDismiss {
+    background: #358 !important;
+  }
+  .extras span.extrasDismiss:hover {
+    background: #57a !important;
   }
   .overlay_container_type_connecting_restricted .overlayHead, .overlay_container_type_global_system_message .overlayHead {
     background: linear-gradient(#431,#320) !important;
@@ -198,7 +201,7 @@
   input, textarea, td.nickcell, td.inputcell {
     background: #111 !important;
   }
-  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, .extras span.extrasDismiss,
+  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text,
   div.log div.fetch span {
     background: transparent !important;
   }
