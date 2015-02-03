@@ -109,16 +109,13 @@
   .bufferContextMenu.active ul.actions li a:hover {
     background: #ccc !important;
   }
-  #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
+  .extras span.extrasBar, #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
   #buffers .selected a.buffer, #buffers .selected a.buffer:hover {
-    background: #16a !important;
+    background: #136 !important;
     color: #fff !important;
   }
-  .extras span.extrasBar {
-    background: #135 !important;
-  }
   .extras span.extrasBar:hover {
-    background: #357 !important;
+    background: #247 !important;
   }
   .overlay_container_type_connecting_restricted .overlayHead, .overlay_container_type_global_system_message .overlayHead {
     background: linear-gradient(#431,#320) !important;
