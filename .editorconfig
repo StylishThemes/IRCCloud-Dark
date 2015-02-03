@@ -1,3 +1,5 @@
+# Follow the guidelines.  Use 2 spaces. Not tabs.
+# See https://github.com/StylishThemes/GitHub-Dark/blob/master/CONTRIBUTING.md for more information.
 root = true
 
 [**.css]
