@@ -52,7 +52,8 @@
   .gistwrap html {
     overflow: hidden !important;
   }
-  button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p {
+  button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p,
+  td.inputcell {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
@@ -197,10 +198,10 @@
   input, textarea, td.nickcell, td.inputcell {
     background: #111 !important;
   }
-  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, .extras span.extrasDismiss {
+  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, .extras span.extrasDismiss,
+  div.log div.fetch span {
     background: transparent !important;
   }
-
   /* webkit scrollbars */
   ::-webkit-scrollbar-track {
     background: #181818 !important;
