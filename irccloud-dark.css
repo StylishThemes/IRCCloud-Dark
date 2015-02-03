@@ -146,7 +146,8 @@
   .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
   .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm,
   ul.memberList li.admin ul, ul.memberList li.admin h2, ul.memberList li.owner ul, ul.memberList li.owner h2,
-  ul.memberList li.halfops ul, ul.memberList li.halfops h2, .editNetworkOverlay, .overlaycontainer, div.log div.fetch span {
+  ul.memberList li.halfops ul, ul.memberList li.halfops h2, .editNetworkOverlay, .overlaycontainer, div.log div.fetch span,
+  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
     background: #181818 !important;
   }
   h2.addNetworkIdentityHeading span, h2.addNetworkAdvancedHeading a, .ui-autocomplete {
@@ -202,9 +203,7 @@
   input, textarea, td.nickcell, td.inputcell {
     background: #111 !important;
   }
-  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
-    background: transparent !important;
-  }
+
   /* webkit scrollbars */
   ::-webkit-scrollbar-track {
     background: #181818 !important;
