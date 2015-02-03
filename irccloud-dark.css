@@ -103,6 +103,9 @@
   .bufferContextMenu.active ul.actions li a {
     color: #333 !important;
   }
+  .overlay_container_type_connecting_restricted .overlayHead, .overlay_container_type_global_system_message .overlayHead {
+    color: #c60 !important;
+  }
   .bufferContextMenu.active ul.actions li a:hover {
     background: #ccc !important;
   }
@@ -111,8 +114,18 @@
     background: #16a !important;
     color: #fff !important;
   }
+  .extras span.extrasBar {
+    background: #135 !important;
+  }
   .extras span.extrasBar:hover {
-    background: #18d !important;
+    background: #357 !important;
+  }
+  .overlay_container_type_connecting_restricted .overlayHead, .overlay_container_type_global_system_message .overlayHead {
+    background: linear-gradient(#431,#320) !important;
+  }
+  .overlay_container_type_global_system_message, .userInfo {
+    border-color: #631 !important;
+    background: #320 !important;
   }
   input, textarea, body, ul.memberList a, #statusActions b, #statusActions strong, .inputInfo span.item a,
   #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a, #buffers p.openArchiveToggle a:hover, .bufferContextMenu,
@@ -130,7 +143,7 @@
   .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
   .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm,
   ul.memberList li.admin ul, ul.memberList li.admin h2, ul.memberList li.owner ul, ul.memberList li.owner h2,
-  ul.memberList li.halfops ul, ul.memberList li.halfops h2 {
+  ul.memberList li.halfops ul, ul.memberList li.halfops h2, .editNetworkOverlay, .overlaycontainer {
     background: #181818 !important;
   }
   h2.addNetworkIdentityHeading span, h2.addNetworkAdvancedHeading a, .ui-autocomplete {
@@ -153,14 +166,20 @@
     background: #321 !important;
   }
   div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a,
-  #pasteSidebar, .ui-autocomplete .ui-state-focus, .ui-autocomplete .ui-state-focus span.host {
-    background: #123 !important;
+  #pasteSidebar, .ui-autocomplete .ui-state-focus, .ui-autocomplete .ui-state-focus span.host, div.log div.groupedLines {
+    background: #1d2224 !important;
   }
   div#buffersFooter p a:hover {
     background-color: #123 !important;
   }
   div.buffermain, .gist .line-numbers {
     background: #141414 !important;
+  }
+  div.log div.warning {
+    background: #303018 !important;
+  }
+  .overlayHead {
+    background: linear-gradient(#282828,#181818) !important;
   }
   .bufferHead, div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
@@ -180,7 +199,7 @@
   input, textarea, td.nickcell, td.inputcell {
     background: #111 !important;
   }
-  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
+  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text, .extras span.extrasDismiss {
     background: transparent !important;
   }
 
