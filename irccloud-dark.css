@@ -145,7 +145,7 @@
   #statusActions, .inputInfo span.hint, div.log span.me_prefix {
     color: #555 !important;
   }
-  #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
+  #buffers li.connection, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
   .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
   .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm,
   ul.memberList li.admin ul, ul.memberList li.admin h2, ul.memberList li.owner ul, ul.memberList li.owner h2,
@@ -191,7 +191,8 @@
   .bufferHead, div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
   #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
-  div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow {
+  div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
+  div.log div.notice {
     background: #222 !important;
   }
   button:hover span, button:hover a, #buffers h2 a.buffer, #buffers a.buffer:hover, #buffers p.openArchiveToggle a:hover,
