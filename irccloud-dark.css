@@ -110,7 +110,7 @@
     background: #ccc !important;
   }
   .extras span.extrasBar, #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
-  #buffers .selected a.buffer, #buffers .selected a.buffer:hover {
+  #buffers .selected a.buffer, #buffers .selected a.buffer:hover, .connectionStatus {
     background: #136 !important;
     color: #fff !important;
   }
