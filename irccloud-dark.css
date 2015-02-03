@@ -129,7 +129,8 @@
   #buffers li.connection, div.log div.notice, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
   .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
   .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm,
-  li.admin ul, li.admin h2, li.owner ul, li.owner h2 {
+  ul.memberList li.admin ul, ul.memberList li.admin h2, ul.memberList li.owner ul, ul.memberList li.owner h2,
+  ul.memberList li.halfops ul, ul.memberList li.halfops h2 {
     background: #181818 !important;
   }
   h2.addNetworkIdentityHeading span, h2.addNetworkAdvancedHeading a, .ui-autocomplete {
