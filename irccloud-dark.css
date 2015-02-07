@@ -142,6 +142,12 @@
   #invites span.numInvites {
     padding: 0 3px 0 3px !important;
   }
+  .bufferHead {
+    padding: 4px !important;
+  }
+  td.statuscell div.status h2.bufferHeading {
+    padding-top: 0 !important;
+  }
   div#buffersFooter p a {
     background-color: #222 !important;
   }
@@ -471,8 +477,8 @@
   .ace_editor .ace_xml-pe{color:#494949!important}
   .ace_editor .ace_indent-guide{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWMQERFpYLC1tf0PAAgOAnPnhxyiAAAAAElFTkSuQmCC) right repeat-y!important}
 
-  /* hide nag */
-  #sidebar #limits {
+  /* hide stuff */
+  #sidebar #limits, h1#title span.logo, h1#title span.logotype, #loggedInAs {
     display: none !important;
   }
 }
