@@ -94,7 +94,7 @@
     background: #136 !important;
     color: #fff !important;
   }
-  .extras span.extrasBar:hover, .extras span.extrasDismiss {
+  .extras span.extrasBar:hover, .extras span.extrasDismiss, #invites span.numInvites {
     background: #358 !important;
   }
   .extras span.extrasDismiss:hover {
@@ -134,6 +134,9 @@
   }
   #buffers li.connection {
     border: 1px solid #333 !important;
+  }
+  #invites span.numInvites {
+    padding: 0 3px 0 3px !important;
   }
   div#buffersFooter p a {
     background-color: #222 !important;
