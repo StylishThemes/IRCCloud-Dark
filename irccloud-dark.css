@@ -210,7 +210,7 @@
   .bufferContextMenu ul.actions li.inlineTweets a, .bufferContextMenu ul.actions li.showJoinPart a,
   .bufferContextMenu ul.actions li.trackUnread a {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjM4NCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNMzIwIDk2bC0xOTIgMTkyLTY0LTY0LTY0IDY0IDEyOCAxMjggMjU2LTI1Ni02NC02NHoiIGZpbGw9IiNjY2MiPjwvcGF0aD48L3N2Zz4=") !important;
-    background-size: 12px 16px;
+    background-size: 12px 16px !important;
   }
 
   #buffers h2 a.join {
