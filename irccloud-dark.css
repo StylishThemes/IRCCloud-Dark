@@ -11,31 +11,6 @@
     /*[[bg-options]]*/
     /*[[bg-options2]]*/
   }
-  input[type="checkbox"], input[type="checkbox"]:focus, input[type="radio"], input[type="radio"]:focus,
-  input[type="checkbox"]:hover:active, input[type="radio"]:hover:active, input[type="checkbox"]:disabled,
-  input[type="checkbox"]:hover:disabled, input[type="checkbox"]:hover:active:disabled {
-    -webkit-appearance: none !important;
-    background-color: #181818 !important;
-    border: 1px solid #555 !important;
-    color: #eee !important;
-    height: 1em !important;
-    width: 1em !important;
-  }
-  input[type=radio] {
-    border-radius: 100% !important;
-  }
-  input[type="checkbox"]:checked {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im05OC43OTk5ODggMjEzbC0wLjc5OTk4OCA4OWMwIDAgMTAzIDEwMiAxMDQgMTAyYzEgMCAyMDUgLTIwMSAyMDUgLTIwMWMwIDAgMCAtOTAgMCAtOTFjLTAuNzk5OTg4IDAgLTIwNCAyMDMgLTIwNCAyMDNsLTEwNCAtMTAyeiIgZmlsbD0iI2RkZGRkZCIvPjwvZz48L3N2Zz4KCg==) !important;
-    background-size: cover !important;
-  }
-  input[type="checkbox"]:indeterminate {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxyZWN0IGhlaWdodD0iMTI4IiB3aWR0aD0iMzg0IiB5PSIxOTIiIHg9IjY0IiBmaWxsPSIjZGRkZGRkIi8+PC9nPjwvc3ZnPg==) !important;
-    background-size: cover !important;
-  }
-  input[type=radio]:checked {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iNjQiIGZpbGw9IiNkZGRkZGQiLz48L2c+PC9zdmc+) !important;
-    background-size: cover !important;
-  }
   /* collapsible blocks +/- icons */
   div.log div.groupedDisco span.discoWidget, div.log div.groupedJoinPart span.joinPartWidget {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHJlY3Qgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6Izk5OTtzdHJva2Utd2lkdGg6MTsiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHg9IjQuNSIgeT0iMy41Ii8+PHBhdGggc3R5bGU9ImZpbGw6Izk5OTsiIGQ9Im0gOCA1IDEgLTAgMCAyIDIgMCAwIDEgLTIgMCAwIDIgLTEgLTAgTCA4IDggNiA4IDYgNyA4IDcgeiIgLz48L3N2Zz4=) !important;
@@ -52,8 +27,11 @@
   .gistwrap html {
     overflow: hidden !important;
   }
+  div.dateWrapper table, div.log div.dateChange p {
+    border: none !important;
+  }
   button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p,
-  td.inputcell {
+  td.inputcell, div.dateWrapper table, div.log div.dateChange p {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
@@ -81,9 +59,6 @@
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
   .gist, .gist .highlight, div.paste h1 span.actions a {
     color: #ccc !important;
-  }
-  #buffers h2.active.unread, #buffers ul.buffers .active.unread a.buffer {
-    border-left-color: #16a !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
   a.gist, a.link, a.reconnect, span.reconnect, #buffers a.buffer, #buffers p.archiveToggle a, #buffers p.join a, .gist a,
@@ -145,32 +120,26 @@
   #statusActions, .inputInfo span.hint, div.log span.me_prefix {
     color: #555 !important;
   }
-  #buffers li.connection, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul, div.log div.status,
-  .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
-  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm,
-  ul.memberList li.admin ul, ul.memberList li.admin h2, ul.memberList li.owner ul, ul.memberList li.owner h2,
-  ul.memberList li.halfops ul, ul.memberList li.halfops h2, .editNetworkOverlay, .overlaycontainer, div.log div.fetch span,
-  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
-    background: #181818 !important;
-  }
-  h2.addNetworkIdentityHeading span, h2.addNetworkAdvancedHeading a, .ui-autocomplete {
-    background-color: #181818 !important;
-  }
-  .gist .markdown-body .highlight pre, .gist .markdown-body pre {
-    background: #222 !important;
-    border: 1px solid #333 !important;
-  }
   div.groupedJoinPart {
     border-color: transparent !important;
   }
   div.groupedJoinPart:hover {
     border-color: #333 !important;
   }
+  #settingsDeleteAccount {
+    border-color: #822 !important;
+  }
+  #buffers h2.active.unread, #buffers ul.buffers .active.unread a.buffer {
+    border-left-color: #16a !important;
+  }
+  #buffers li.connection {
+    border: 1px solid #333 !important;
+  }
   div#buffersFooter p a {
     background-color: #222 !important;
   }
   div.log div.row.highlight {
-    background: #321 !important;
+    background: #322 !important;
   }
   div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a,
   #pasteSidebar, .ui-autocomplete .ui-state-focus, .ui-autocomplete .ui-state-focus span.host, div.log div.groupedLines {
@@ -185,17 +154,38 @@
   div.log div.warning {
     background: #303018 !important;
   }
+  #settingsDeleteAccount h2 {
+    background: linear-gradient(#822,#711) !important;
+  }
   .overlayHead {
     background: linear-gradient(#282828,#181818) !important;
   }
-  .bufferHead, div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
+  input, textarea, td.nickcell, td.inputcell {
+    background: #111 !important;
+  }
+  .bufferHead, #buffers li.connection, div.memberwrapper, ul.memberList li.ops h2, ul.memberList li.ops ul,
+  .accountContainer, .gist .highlight, ul.memberList li.voiced h2, ul.memberList li.voiced ul, div.paste, div.paste pre.body ol li,
+  .gist .gist-file .gist-data, .gist .markdown-body .highlight pre, .gist .markdown-body pre, .mainContainer, form.addNetworkForm,
+  ul.memberList li.admin ul, ul.memberList li.admin h2, ul.memberList li.owner ul, ul.memberList li.owner h2,
+  ul.memberList li.halfops ul, ul.memberList li.halfops h2, .editNetworkOverlay, .overlaycontainer, div.log div.fetch span,
+  div.log div.bottomSeen span, div.log div.focusSeen span, div.log div.lastSeen span.text {
+    background: #181818 !important;
+  }
+  h2.addNetworkIdentityHeading span, h2.addNetworkAdvancedHeading a, .ui-autocomplete {
+    background-color: #181818 !important;
+  }
+  .gist .markdown-body .highlight pre, .gist .markdown-body pre {
+    background: #222 !important;
+    border: 1px solid #333 !important;
+  }
+  div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
   #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
   div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
-  div.log div.notice {
+  div.log div.notice, #buffers h2 a.buffer, div.log div.status {
     background: #222 !important;
   }
-  button:hover span, button:hover a, #buffers h2 a.buffer, #buffers a.buffer:hover, #buffers p.openArchiveToggle a:hover,
+  button:hover span, button:hover a, #buffers a.buffer:hover, #buffers p.openArchiveToggle a:hover,
   #channelContextMenu.active.mod ul.actions li a.topic:hover, #channelContextMenu.active.mod ul.actions li a.topic:hover,
   #memberContextMenu ul.actions li a:hover, .bufferContextMenu ul.actions li a.delete:hover, .bufferContextMenu ul.actions li a.export:hover,
   .bufferContextMenu ul.actions li a.ignores:hover, .bufferContextMenu ul.actions li a.images:hover,
@@ -204,8 +194,16 @@
   .bufferContextMenu ul.actions li a.tweets:hover, .bufferContextMenu ul.actions li a.unread:hover {
      background: #333 !important;
   }
-  input, textarea, td.nickcell, td.inputcell {
-    background: #111 !important;
+
+  #buffers h2 a.join {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMzEgMTJoLTExdi0xMWMwLS41NTItLjQ0OC0xLTEtMWgtNmMtLjU1MiAwLTEgLjQ0OC0xIDF2MTFoLTExYy0uNTUyIDAtMSAuNDQ4LTEgMXY2YzAgLjU1Mi40NDggMSAxIDFoMTF2MTFjMCAuNTUyLjQ0OCAxIDEgMWg2Yy41NTIgMCAxLS40NDggMS0xdi0xMWgxMWMuNTUyIDAgMS0uNDQ4IDEtMXYtNmMwLS41NTItLjQ0OC0xLTEtMXoiLz48L3N2Zz4K") !important;
+    background-size: contain !important;
+    background-position: 0% 0% !important;
+    filter: invert(30%) !important;
+  }
+  #buffers h2 a.join:hover {
+    background-position: 0% 0% !important;
+    filter: invert(60%) !important;
   }
 
   /* webkit scrollbars */
@@ -220,6 +218,36 @@
     background: #181818 !important;
     border-color: #181818 !important;
   }
+
+  /* custom checkbox/radio styles */
+  input[type="checkbox"], input[type="checkbox"]:focus, input[type="radio"], input[type="radio"]:focus,
+  input[type="checkbox"]:hover:active, input[type="radio"]:hover:active, input[type="checkbox"]:disabled,
+  input[type="checkbox"]:hover:disabled, input[type="checkbox"]:hover:active:disabled {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background-color: #181818 !important;
+    border: 1px solid #555 !important;
+    border-radius: 3px !important;
+    color: #eee !important;
+    height: 1em !important;
+    width: 1em !important;
+  }
+  input[type=radio] {
+    border-radius: 100% !important;
+  }
+  input[type="checkbox"]:checked {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxwYXRoIGQ9Im05OC43OTk5ODggMjEzbC0wLjc5OTk4OCA4OWMwIDAgMTAzIDEwMiAxMDQgMTAyYzEgMCAyMDUgLTIwMSAyMDUgLTIwMWMwIDAgMCAtOTAgMCAtOTFjLTAuNzk5OTg4IDAgLTIwNCAyMDMgLTIwNCAyMDNsLTEwNCAtMTAyeiIgZmlsbD0iI2RkZGRkZCIvPjwvZz48L3N2Zz4KCg==) !important;
+    background-size: cover !important;
+  }
+  input[type="checkbox"]:indeterminate {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxyZWN0IGhlaWdodD0iMTI4IiB3aWR0aD0iMzg0IiB5PSIxOTIiIHg9IjY0IiBmaWxsPSIjZGRkZGRkIi8+PC9nPjwvc3ZnPg==) !important;
+    background-size: cover !important;
+  }
+  input[type=radio]:checked {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48Zz48cmVjdCBoZWlnaHQ9IjUxMiIgd2lkdGg9IjUxMiIgeT0iMCIgeD0iMCIgZmlsbD0iIzAwMDAwMCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI1NiIgcj0iNjQiIGZpbGw9IiNkZGRkZGQiLz48L2c+PC9zdmc+) !important;
+    background-size: cover !important;
+  }
+
 
   /* nick colors */
   .nick-colors div.log div.row span a.c0, .nick-colors div.log div.row span a.c0:hover,
