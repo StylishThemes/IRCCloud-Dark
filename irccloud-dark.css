@@ -19,8 +19,7 @@
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHJlY3Qgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6Izk5OTtzdHJva2Utd2lkdGg6MTsiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHg9IjQuNSIgeT0iMy41Ii8+PHBhdGggc3R5bGU9ImZpbGw6Izk5OSIgZD0ibSAxMSA3IDAgMSBjIC0wIC0wIC01IDAgLTUgMCBMIDYgNyB6Ii8+PC9zdmc+) !important;
   }
   /* invert image */
-  canvas.clock, #channelContextMenu ul.actions li.notifyAll a, #channelContextMenu ul.actions li.showMembers a,
-  .bufferContextMenu ul.actions li a {
+  canvas.clock {
     filter: url("data:image/svg+xml;utf8, <svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'i\'><feColorMatrix color-interpolation-filters=\'srgb\' values=\'-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0\'/></filter></svg>#i");
     -webkit-filter: invert(100%) !important;
   }
@@ -61,7 +60,8 @@
   div.log div.table, div.log div.warning, div.buffermain, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #channelContextMenu.active.mod ul.actions li a.topic, #memberContextMenu ul.actions li a,
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
-  .gist, .gist .highlight, div.paste h1 span.actions a, div.log div.groupedJoinPart span.mode, div.log span.prefix {
+  .gist, .gist .highlight, div.paste h1 span.actions a, div.log div.groupedJoinPart span.mode, div.log span.prefix,
+  #channelContextMenu.topicControl ul.actions li a.topic, .bufferContextMenu ul.actions li a {
     color: #ccc !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
@@ -70,8 +70,11 @@
   div.log div.notice a {
     color: #16a !important;
   }
-  div.log div.backlogDivider hr, div.log div.fetch hr {
+  div.log div.backlogDivider hr, div.log div.fetch hr, .sidebarIndicatorUnread {
     border-color: #16a !important;
+  }
+  .sidebarIndicatorUnread {
+    background: #16a !important;
   }
   div.paste h1 span.actions a:hover {
     color: #38c !important;
@@ -87,14 +90,8 @@
   ul.memberList li.members h2 span.memberCount {
     color: #5af !important;
   }
-  .bufferContextMenu.active ul.actions li a {
-    color: #333 !important;
-  }
   .overlay_container_type_connecting_restricted .overlayHead, .overlay_container_type_global_system_message .overlayHead {
     color: #c60 !important;
-  }
-  .bufferContextMenu.active ul.actions li a:hover {
-    background: #ccc !important;
   }
   .extras span.extrasBar, #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
   #buffers .selected a.buffer, #buffers .selected a.buffer:hover, .connectionStatus {
@@ -188,13 +185,13 @@
     background: #222 !important;
     border: 1px solid #333 !important;
   }
-  div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p,
-  #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
-  #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
+  div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p, #buffers p.openArchiveToggle a,
+  .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta, #memberContextMenu div.userContext,
+  .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
   div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
   div.log div.notice, #buffers h2 a.buffer, div.log div.status, #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a,
   #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover {
-    background: #222 !important;
+    background: #242424 !important;
   }
   button:hover span, button:hover a,
   #channelContextMenu.active.mod ul.actions li a.topic:hover, #channelContextMenu.active.mod ul.actions li a.topic:hover,
@@ -202,8 +199,18 @@
   .bufferContextMenu ul.actions li a.ignores:hover, .bufferContextMenu ul.actions li a.images:hover,
   .bufferContextMenu ul.actions li a.joinpart:hover, .bufferContextMenu ul.actions li a.joinpartcollapse:hover,
   .bufferContextMenu ul.actions li a.notifyAll:hover, .bufferContextMenu ul.actions li a.pastes:hover,
-  .bufferContextMenu ul.actions li a.tweets:hover, .bufferContextMenu ul.actions li a.unread:hover {
-     background: #333 !important;
+  .bufferContextMenu ul.actions li a.tweets:hover, .bufferContextMenu ul.actions li a.unread:hover,
+  .bufferContextMenu.active ul.actions li a:hover {
+     background-color: #333 !important;
+  }
+
+  #channelContextMenu ul.actions li.notifyAll a, #channelContextMenu ul.actions li.showMembers a,
+  .bufferContextMenu ul.actions li.collapseDisconnects a, .bufferContextMenu ul.actions li.collapseJoinPart a,
+  .bufferContextMenu ul.actions li.inlineImages a, .bufferContextMenu ul.actions li.inlinePastes a,
+  .bufferContextMenu ul.actions li.inlineTweets a, .bufferContextMenu ul.actions li.showJoinPart a,
+  .bufferContextMenu ul.actions li.trackUnread a {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjM4NCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48cGF0aCBkPSJNMzIwIDk2bC0xOTIgMTkyLTY0LTY0LTY0IDY0IDEyOCAxMjggMjU2LTI1Ni02NC02NHoiIGZpbGw9IiNjY2MiPjwvcGF0aD48L3N2Zz4=") !important;
+    background-size: 12px 16px;
   }
 
   #buffers h2 a.join {
