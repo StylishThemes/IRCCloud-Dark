@@ -185,10 +185,11 @@
   #buffers p.openArchiveToggle a, .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta,
   #memberContextMenu div.userContext, .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
   div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
-  div.log div.notice, #buffers h2 a.buffer, div.log div.status {
+  div.log div.notice, #buffers h2 a.buffer, div.log div.status, #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a,
+  #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover {
     background: #222 !important;
   }
-  button:hover span, button:hover a, #buffers a.buffer:hover, #buffers p.openArchiveToggle a:hover,
+  button:hover span, button:hover a,
   #channelContextMenu.active.mod ul.actions li a.topic:hover, #channelContextMenu.active.mod ul.actions li a.topic:hover,
   #memberContextMenu ul.actions li a:hover, .bufferContextMenu ul.actions li a.delete:hover, .bufferContextMenu ul.actions li a.export:hover,
   .bufferContextMenu ul.actions li a.ignores:hover, .bufferContextMenu ul.actions li a.images:hover,
