@@ -27,6 +27,9 @@
   .gistwrap html {
     overflow: hidden !important;
   }
+  .mainContainer, table.buffer {
+    border-width: 1px 1px 0 0 !important;
+  }
   div.dateWrapper table, div.log div.dateChange p {
     border: none !important;
   }
@@ -43,7 +46,8 @@
   div.log div.hover span.date {
     color: #fff !important;
   }
-  div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author {
+  div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author,
+  div.log {
     color: #666 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a, div#buffersFooter p a, div.log div.groupedJoinPart span.mode,
@@ -57,7 +61,7 @@
   div.log div.table, div.log div.warning, div.buffermain, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   #channelContextMenu.active.mod ul.actions li a.topic, #memberContextMenu ul.actions li a,
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
-  .gist, .gist .highlight, div.paste h1 span.actions a {
+  .gist, .gist .highlight, div.paste h1 span.actions a, div.log div.groupedJoinPart span.mode, div.log span.prefix {
     color: #ccc !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
@@ -65,6 +69,9 @@
   div.log div.chat a:not(.c0):not(.c1):not(.c2):not(.c3):not(.c4):not(.c5):not(.c6):not(.c7):not(.c8):not(.c9):not(.c10):not(.c11):not(.c12):not(.c13),
   div.log div.notice a {
     color: #16a !important;
+  }
+  div.log div.backlogDivider hr, div.log div.fetch hr {
+    border-color: #16a !important;
   }
   div.paste h1 span.actions a:hover {
     color: #38c !important;
