@@ -7,6 +7,6 @@
   - In Chrome, paste into a new style, remove the first and last line of the CSS and set it to apply on domain `irccloud.com`.
 
 ## Preview
-![Preview](http://i.imgur.com/jwmisLd.png)
+![Preview](http://i.imgur.com/nDNMRmm.png)
 
 © 2015 [silverwind](https://github.com/silverwind), distributed under BSD licence
