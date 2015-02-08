@@ -1,4 +1,4 @@
-@-moz-document domain("irccloud.com") {
+@-moz-document domain("irccloud.com"), domain("gist-assets.github.com") {
 /* AGENT_SHEET */
   * {
    border-color: #333 !important;
