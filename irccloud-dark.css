@@ -3,6 +3,12 @@
   * {
    border-color: #333 !important;
   }
+  div.paste, div.paste h1, div.log div.gistwrap h1.gistwraptitle, .gist .gist-file {
+    border-color: #444 !important;
+  }
+  .ace-chrome .ace_gutter {
+    border-right: 1px solid #444 !important;
+  }
   body {
     background-color: #222 !important;
     background-image: /*[[bg-choice]]*/ url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAACVBMVEUaGhohISElJSUh9lebAAAB20lEQVRIx4XWuZXDMAwE0C0SAQtggIIYoAAEU+aKOHhYojTrYP2+QfOW/5QIJOih/q8HwF/pb3EX+UPIveYcQGgEHiu9hI+ihEc5Jz5KBIlRRRaJ1JtoSAl5Hw96hLB1/up1tnIXOck5jZQy+3iU2hAOKSH1JvwxHsp+5TLF5MOl1/MQXsVs1miXc+KDbYydyMeUgpPQreZ7fWidbNhkXNJSeAhc6qHmHD8AYovunYyEACWEbyIhNeB9fRrH3hFi0bGPLuEW7xCNaohw1vAlS805nfsrTspclB/hVdoqusg53eH7FWot+wjYpOViX8KbFFKTwlnzvj65P9H/vD0/hibYBGhPwlPO8TmxRsaxsNnrUmUXpNhirlJMPr6Hqq9k5Xn/8iYQHYIuQsWFC6Z87IOxLxHphSY4SpuiU87xJnJr5axfeRd+lnMExXpEWPpuZ1v7qZdNBOjiHzDREHX5fs5Zz9p6X0vVKbKKchlSl5rv+3p//FJ/PYvoKryI8vs+2G9lzRmnEKkh+BU8yDk515jDj/HAswu7CCz6U/Mxb/PnC9N41ndpU4hUU7JGk/C9PmP/M2xZYdvBW2PObyf1IUiIzoHmHW9yTncliYs9A9tVNppdShfgQaTLMf+j3X723tLeHgAAAABJRU5ErkJggg==) !important;
@@ -46,11 +52,11 @@
     color: #fff !important;
   }
   div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author,
-  div.log {
+  div.log, div.paste h1 {
     color: #666 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a, div#buffersFooter p a, div.log div.groupedJoinPart span.mode,
-  div.log span.prefix {
+  div.log span.prefix, div.log div.gistwrap h1.gistwraptitle a {
     color: #999 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
@@ -156,7 +162,7 @@
   }
   div.log div.self, .connectionStatus.disconnect a, .connectionStatus.edit a, .connectionStatus.reconnect a, .connectionStatus.upgrade a,
   #pasteSidebar, .ui-autocomplete .ui-state-focus, .ui-autocomplete .ui-state-focus span.host, div.log div.groupedLines {
-    background: #1d2224 !important;
+    background: #1d2022 !important;
   }
   div#buffersFooter p a:hover {
     background-color: #123 !important;
@@ -170,7 +176,7 @@
   #settingsDeleteAccount h2 {
     background: linear-gradient(#822,#711) !important;
   }
-  .overlayHead {
+  .overlayHead, div.paste h1, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
     background: linear-gradient(#282828,#181818) !important;
   }
   input, textarea, td.nickcell, td.inputcell {
@@ -192,8 +198,8 @@
     border: 1px solid #333 !important;
   }
   div.nickinputwrapper, button a, button span, div.dateWrapper table, div.log div.dateChange p, #buffers p.openArchiveToggle a,
-  .bufferContextMenu, div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta, #memberContextMenu div.userContext,
-  .contextMenu, div.paste h1, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
+  .bufferContextMenu, #memberContextMenu div.userContext,
+  .contextMenu, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
   div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
   div.log div.notice, #buffers h2 a.buffer, div.log div.status, #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a,
   #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover {
@@ -445,7 +451,7 @@
 
    /*! twilight */
   .ace_editor {background:#181818!important;color:#ddd!important;}
-  .ace_editor .ace_gutter{background:#232323!important;color:#E2E2E2!important}
+  .ace_editor .ace_gutter{background:#181818!important;color:#aaa!important}
   .ace_editor .ace_print-margin{width:1px!important;background:#232323!important}
   .ace_editor .ace_cursor{color:#A7A7A7!important}
   .ace_editor .ace_marker-layer .ace_selection{background:rgba(221,240,255,.2)!important}
