@@ -39,7 +39,7 @@
     border: none !important;
   }
   button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p,
-  td.inputcell, div.dateWrapper table, div.log div.dateChange p {
+  td.inputcell, div.dateWrapper table, div.log div.dateChange p, #uploadContextMenu {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
@@ -67,7 +67,7 @@
   #channelContextMenu.active.mod ul.actions li a.topic, #memberContextMenu ul.actions li a,
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
   .gist, .gist .highlight, div.paste h1 span.actions a, div.log div.groupedJoinPart span.mode, div.log span.prefix,
-  #channelContextMenu.topicControl ul.actions li a.topic, .bufferContextMenu ul.actions li a {
+  #channelContextMenu.topicControl ul.actions li a.topic, .bufferContextMenu ul.actions li a, #uploadContextMenu ul.actions li a:hover {
     color: #ccc !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
@@ -100,7 +100,7 @@
     color: #c60 !important;
   }
   .extras span.extrasBar, #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
-  #buffers .selected a.buffer, #buffers .selected a.buffer:hover, .connectionStatus {
+  #buffers .selected a.buffer, #buffers .selected a.buffer:hover, .connectionStatus, #uploadContextMenu ul.actions li a:hover {
     background: #136 !important;
     color: #fff !important;
   }
@@ -142,7 +142,7 @@
   #buffers h2.active.unread, #buffers ul.buffers .active.unread a.buffer {
     border-left-color: #16a !important;
   }
-  #buffers li.connection {
+  #buffers li.connection, #uploadContextMenu {
     border: 1px solid #333 !important;
   }
   #invites span.numInvites {
