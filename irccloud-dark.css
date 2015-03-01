@@ -202,7 +202,7 @@
   .contextMenu, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
   div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
   div.log div.notice, #buffers h2 a.buffer, div.log div.status, #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a,
-  #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover {
+  #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover, td.uploadcell {
     background: #242424 !important;
   }
   button:hover span, button:hover a,
