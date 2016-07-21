@@ -39,7 +39,8 @@
     border: none !important;
   }
   button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p,
-  td.inputcell, div.dateWrapper table, div.log div.dateChange p, #uploadContextMenu {
+  td.inputcell, div.dateWrapper table, div.log div.dateChange p, #uploadContextMenu, #sidebarwrapper,
+  .bufferList h2 span.buffer, .accountMenu__button {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
@@ -48,7 +49,8 @@
   .accountContainer, #memberContextMenu {
     box-shadow: 0 0 20px #555 !important;
   }
-  div.log div.hover span.date {
+  div.log div.hover span.date, .bufferList p.archiveToggle:hover button, .bufferList p.openArchiveToggle button,
+  .bufferList .buffer:hover span.buffer {
     color: #fff !important;
   }
   div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author,
@@ -100,11 +102,13 @@
     color: #c60 !important;
   }
   .extras span.extrasBar, #buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover, .extras span.extrasBar,
-  #buffers .selected a.buffer, #buffers .selected a.buffer:hover, .connectionStatus, #uploadContextMenu ul.actions li a:hover {
+  #buffers .selected a.buffer, #buffers .selected a.buffer:hover, .connectionStatus, #uploadContextMenu ul.actions li a:hover,
+  .bufferList h2 span.buffer, .accountMenu__button {
     background: #136 !important;
     color: #fff !important;
   }
-  .extras span.extrasBar:hover, .extras span.extrasDismiss, #invites span.numInvites {
+  .extras span.extrasBar:hover, .extras span.extrasDismiss, #invites span.numInvites, .bufferList .buffer:hover span.buffer,
+  .bufferList p.archiveToggle:hover, .bufferList p.openArchiveToggle {
     background: #358 !important;
   }
   .extras span.extrasDismiss:hover {
@@ -154,7 +158,7 @@
   td.statuscell div.status h2.bufferHeading {
     padding-top: 0 !important;
   }
-  div#buffersFooter p a {
+  div#buffersFooter p a, #sidebar .info {
     background-color: #222 !important;
   }
   div.log div.row.highlight {
@@ -167,7 +171,7 @@
   div#buffersFooter p a:hover {
     background-color: #123 !important;
   }
-  div.buffermain, .gist .line-numbers {
+  div.buffermain, .gist .line-numbers, #sidebarwrapper {
     background: #141414 !important;
   }
   div.log div.warning {
