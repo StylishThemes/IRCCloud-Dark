@@ -40,25 +40,33 @@
   }
   button.action a, button.action span, .inputInfo, button a, button span, div.dateWrapper table, div.log div.dateChange p,
   td.inputcell, div.dateWrapper table, div.log div.dateChange p, #uploadContextMenu, #sidebarwrapper,
-  .bufferList h2 span.buffer, .accountMenu__button {
+  .bufferList h2 span.buffer, .accountMenu__button, .editNetworkOverlay, .overlaycontainer, .contextMenu, div.memberwrapper {
     box-shadow: none !important;
   }
   div.log div.gistwrap h1.gistwraptitle, .gist .gist-meta {
     text-shadow: none !important;
   }
-  .accountContainer, #memberContextMenu {
+  .accountContainer, #memberContextMenu, ul.memberList li.category {
     box-shadow: 0 0 20px #555 !important;
+  }
+  .clipboardTriggerCell, .inputcell, .lockcell, .nickcell, .uploadcell {
+    box-shadow: inset 0 1px 0 #555,inset 0 -1px 0 #333 !important;
   }
   div.log div.hover span.date, .bufferList p.archiveToggle:hover button, .bufferList p.openArchiveToggle button,
   .bufferList .buffer:hover span.buffer {
     color: #fff !important;
   }
+  ul.memberList .bufferLink {
+    color: #666; /* no !important flag; to maintain hover styles */
+  }
   div#timeContainer, div.log span.date, .gist .gist-meta, div.log div.gistwrap h1.gistwraptitle, body:not(.nick-colors) a.author,
-  div.log, div.paste h1 {
+  div.log, div.paste h1, #memberContextMenu .bufferLink.user, .buffernick .nick {
     color: #666 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a, div#buffersFooter p a, div.log div.groupedJoinPart span.mode,
-  div.log span.prefix, div.log div.gistwrap h1.gistwraptitle a {
+  div.log span.prefix, div.log div.gistwrap h1.gistwraptitle a, div.log div.groupedLines, div.log div.monospace span.content,
+  div.log div.notice span.content, div.log div.warning span.content, .bufferstatus div.status h2.bufferHeading span.label,
+  .contextMenu ul.actions li .contextMenu__item:not(.delete) {
     color: #999 !important;
   }
   .gist .gist-meta a, div.log div.gistwrap h1.gistwraptitle a {
@@ -69,7 +77,10 @@
   #channelContextMenu.active.mod ul.actions li a.topic, #memberContextMenu ul.actions li a,
   td.statuscell div.status h2.bufferHeading span.label, .gist .line-pre, #memberContextMenu div.userContext, .contextMenu a,
   .gist, .gist .highlight, div.paste h1 span.actions a, div.log div.groupedJoinPart span.mode, div.log span.prefix,
-  #channelContextMenu.topicControl ul.actions li a.topic, .bufferContextMenu ul.actions li a, #uploadContextMenu ul.actions li a:hover {
+  #channelContextMenu.topicControl ul.actions li a.topic, .bufferContextMenu ul.actions li a, #uploadContextMenu ul.actions li a:hover,
+  div.log div.groupedLines b, div.log div.groupedLines strong, div.log div.monospace span.message b,
+  div.log div.monospace span.message strong, div.log div.notice span.message b, div.log div.notice span.message strong,
+  div.log div.warning span.message b, div.log div.warning span.message strong {
     color: #ccc !important;
   }
   #buffers .active a.buffer, #footer a, #headercell a, #sidebar #limits a, h1#title a, div#searchResults div.searchResultDate a,
@@ -92,7 +103,7 @@
     color: #16a;
   }
   a:hover, #footer a:hover, #headercell a:hover, #sidebar #limits a:hover, h1#title a:hover,
-  ul.memberList li.members h2 {
+  ul.memberList li.members h2, .uploadcell {
     color: #38c !important;
   }
   ul.memberList li.members h2 span.memberCount {
@@ -108,7 +119,7 @@
     color: #fff !important;
   }
   .extras span.extrasBar:hover, .extras span.extrasDismiss, #invites span.numInvites, .bufferList .buffer:hover span.buffer,
-  .bufferList p.archiveToggle:hover, .bufferList p.openArchiveToggle {
+  .bufferList p.archiveToggle:hover, .bufferList p.openArchiveToggle, .contextMenu ul.actions li .contextMenu__item:hover {
     background: #358 !important;
   }
   .extras span.extrasDismiss:hover {
@@ -171,7 +182,7 @@
   div#buffersFooter p a:hover {
     background-color: #123 !important;
   }
-  div.buffermain, .gist .line-numbers, #sidebarwrapper {
+  div.buffermain, .gist .line-numbers, #sidebarwrapper, .inputcell {
     background: #141414 !important;
   }
   div.log div.warning {
@@ -206,7 +217,7 @@
   .contextMenu, .inputInfo, div.log div.groupedDisco.expanded, div.log div.groupedDisco:hover,
   div.log div.groupedJoinPart.expanded, div.log div.groupedJoinPart:hover, .discoGroup.expanded div, .joinPartGroup.expanded div.messageRow,
   div.log div.notice, #buffers h2 a.buffer, div.log div.status, #buffers p.archiveToggle a:hover, #buffers p.openArchiveToggle a,
-  #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover, td.uploadcell {
+  #buffers p.openArchiveToggle a:hover, #buffers a.buffer:hover, .uploadcell {
     background: #242424 !important;
   }
   button:hover span, button:hover a,
