@@ -1,3 +1,5 @@
+**Retired:** IRCCloud has built-in dark themes now.
+
 # IRCCloud-Dark [![tags](https://img.shields.io/github/tag/StylishThemes/IRCCloud-Dark.svg?style=flat)](https://github.com/StylishThemes/IRCCloud-Dark/tags)
 
 - Stylish is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
